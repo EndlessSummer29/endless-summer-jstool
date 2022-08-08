@@ -1,6 +1,6 @@
 {
   "name": "endless-summer-jstool",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "private": false,
   "main": "lib/endless-summer-jstool.umd.min.js",
   "scripts": {

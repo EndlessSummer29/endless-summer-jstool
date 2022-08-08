@@ -2,6 +2,7 @@
 node_modules
 /dist
 /public/live2d/destinychild
+README.cn.md
 
 
 # local env files
