@@ -6,6 +6,18 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <style>
+      .amap-sug-result{
+        border: 0 !important;
+        z-index: 2500 !important;
+      }
+    </style>
+    <script type="text/javascript">
+      window._AMapSecurityConfig = {
+        securityJsCode:'a05e45b4c6a468371a7443939164ce35',
+      }
+    </script>
+    <script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.15&key=f913b2286b47ebab1627d0d7cde669e3&plugin=AMap.MouseTool,AMap.Autocomplete,AMap.PlaceSearch,AMap.Driving,AMap.Geocoder,AMap.Transfer,AMap.Walking"></script>
   </head>
   <body>
     <noscript>

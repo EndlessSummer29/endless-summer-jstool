@@ -1,4 +1,4 @@
-# endless-summer-jstool
+# testapp
 
 ## Project setup
 ```

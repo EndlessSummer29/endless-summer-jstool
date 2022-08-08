@@ -1,9 +1,8 @@
+import demoComponent from './src/index'
 
-function exitFullscreen() {
-    console.log('测试成功')
-    console.log(1)
+// 为组件提供 install 安装方法，供按需引入
+demoComponent.install = function (Vue) {
+  Vue.component(demoComponent.name, demoComponent)
 }
-  
-export {
-    exitFullscreen
-}
+// 默认导出组件
+export default demoComponent

@@ -1,0 +1,5 @@
+const DeepFind = {
+    findone(origindata){
+        
+    }
+}
